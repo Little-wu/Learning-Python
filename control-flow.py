@@ -25,7 +25,7 @@ print(False or True)
 # control flow
 name = 'xiao'
 
-if name=='xiao':
+if name == 'xiao':
     print(True)
 
 if name == 'xiao':
@@ -43,7 +43,7 @@ else:
     print('xiao')
 
 # loop while for
-i=0
+i = 0
 
 # output 1 2 3 4 6
 while i < 10:
@@ -54,13 +54,13 @@ while i < 10:
         break
     print(i)
 
-# raang(begin number,end number, increase value)
+# rang(begin number,end number, increase value)
 # output 2 4 6 8 10 12 14 16 18
 for num in range(2, 20, 2):
     print(num)
 
 # import a module 
 import random
+
 # create a number between 1 and 10
 print(random.randint(1, 10))
-
